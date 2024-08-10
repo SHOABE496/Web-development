@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The button element</title>
+  <style>
+    .button{
+      height: 30px;
+      width: 50px;
+      transition-duration: .4s;
+      margin-left: 50px;
+    }
+
+    .button1{
+      background-color: white;
+      color:black;
+      border: 2px solid lightgreen;
+    }
+
+    .button1:hover{
+      background-color: lightgreen;
+      color: white;
+    }
+    
+    .button2{
+      background-color: white;
+      color: black;
+      border: 2px solid blue;
+    }
+
+    .button2:hover{
+      background-color: blue;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>The Button Element</h1>
+  <button type="button" onclick="alert('MISS YOU')">CLick here</button>
+  
+  <h1>The button element - Style with CSS</h1>
+  <p>Use hover selector to change the style of the button when you move the mouse over it.</p>
+<p><b>Tips:</b>Use the transitoin-duration poperty to determine the speed of the "hover" effect:</p>
+
+  <button class="button button1" onclick="alert('I love you')">Green</button>
+  <button class="button button2" onclick="alert('And I miss you')">Blue</button>
+</body>
+</htmL>
+
+
